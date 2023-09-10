@@ -13,5 +13,8 @@ int fib(int n){
 int main(){
     int n =6;
     // cin >> n;
-    cout<<fib(n);
+    // cout<<fib(n);
+    for(int i = 0 ; i <  n ; i++){
+        cout<< fib(i) << " "<<endl;
+    }
 }
